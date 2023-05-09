@@ -17,7 +17,10 @@ Insert into Department (department_name, head_of_department_id) values ('History
 
 Insert into Lector_Departments (lector_id, department_id) values (1, 1);
 Insert into Lector_Departments (lector_id, department_id) values (2, 2);
+Insert into Lector_Departments (lector_id, department_id) values (1, 2);
+Insert into Lector_Departments (lector_id, department_id) values (1, 3);
 Insert into Lector_Departments (lector_id, department_id) values (3, 3);
+Insert into Lector_Departments (lector_id, department_id) values (3, 4);
 Insert into Lector_Departments (lector_id, department_id) values (4, 1);
 Insert into Lector_Departments (lector_id, department_id) values (5, 2);
 Insert into Lector_Departments (lector_id, department_id) values (6, 3);
