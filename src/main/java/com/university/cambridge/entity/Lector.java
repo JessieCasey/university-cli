@@ -8,6 +8,10 @@ import lombok.experimental.FieldDefaults;
 
 import java.util.List;
 
+/**
+ * This class represents a Lector entity in the University of Cambridge system
+ */
+
 @Entity
 @Getter
 @Setter

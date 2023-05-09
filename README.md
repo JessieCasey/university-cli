@@ -27,7 +27,7 @@ modify strategies without changing the main code.
 
 To get started you need to have Docker installed on your machine
 
-Then, we need to run .yaml file, you can not only directly open them in IDE, but also in terminal with the following
+Then, you need to run .yaml file, and you can not only directly open them in IDE, but also in terminal with the following
 program.
 
 ```bash
@@ -86,6 +86,10 @@ Please enter a command (or 'exit' to quit):
 Please enter a command (or 'exit' to quit): 
 -> Show COUNT    of employee   for Computer Science
 => 2
++---------------------------------------------------------+
+Please enter a command (or 'exit' to quit): 
+-> who is head of department HOJ
+=> Sorry, the department you entered was not found. Please try a different department name.
 +---------------------------------------------------------+
 Please enter a command (or 'exit' to quit): 
 -> exit

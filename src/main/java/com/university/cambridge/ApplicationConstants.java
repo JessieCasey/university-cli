@@ -16,7 +16,6 @@ public class ApplicationConstants {
         public static final String DEPARTMENT_NOT_FOUND = "Sorry, the department you entered was not found. Please try a different department name.";
         public static final String HEAD_DEPARTMENT_NOT_FOUND = "Sorry, the head of department you requested could not be found.";
         public static final String NO_SALARY_FOUND = "Sorry, we could not find any salary information for the department '%s'. Please try a different department name.";
-        public static final String LECTORS_NOT_FOUND = "Sorry, we could not find any lecturers for the department '%s'. Please try a different department name.";
 
         public static final String HEAD_RESPONSE = "Head of %s department is %s.";
 

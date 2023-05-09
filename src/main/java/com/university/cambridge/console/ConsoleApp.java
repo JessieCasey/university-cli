@@ -11,6 +11,13 @@ import java.util.Scanner;
 import static com.university.cambridge.ApplicationConstants.ConsoleResponse.LINE;
 import static com.university.cambridge.ApplicationConstants.ConsoleResponse.WELCOME_MESSAGE;
 
+/**
+
+ This class represents the console application of the University of Cambridge. It implements CommandLineRunner interface
+ and runs a command line interface. It takes input from the user and uses CommandFactory to execute the commands.
+ It also uses the Lombok RequiredArgsConstructor annotation to initialize the final fields.
+ */
+
 @Component
 @RequiredArgsConstructor
 public class ConsoleApp implements CommandLineRunner {
@@ -18,6 +25,12 @@ public class ConsoleApp implements CommandLineRunner {
     private final CommandFactory commandFactory;
     private final ApplicationContext applicationContext;
 
+    /**
+     * This method is called when the application is executed. It displays a welcome message and prompts the user to enter a command.
+     * It continues to prompt the user until the user enters 'exit' command to quit. The method then exits the application.
+     *
+     * @param args The command-line arguments
+     */
     @Override
     public void run(String... args) {
         Scanner scanner = new Scanner(System.in);

@@ -12,6 +12,10 @@ import javax.sql.DataSource;
 @Configuration
 public class DatabaseConfig {
 
+    /**
+     * Method that fills database based on database-init.sql
+     * @author Artem Komarov
+     */
     @Bean
     public DataSourceInitializer dataSourceInitializer(@Qualifier("dataSource") final DataSource dataSource) {
         ResourceDatabasePopulator resourceDatabasePopulator = new ResourceDatabasePopulator();

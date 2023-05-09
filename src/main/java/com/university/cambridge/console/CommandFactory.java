@@ -18,6 +18,11 @@ public class CommandFactory {
     private final DepartmentInfoStrategy departmentInfoStrategy;
     private final GlobalSearchStrategy globalSearchStrategy;
 
+    /**
+     * Executes the command entered by the user.
+     * @param userInput the user's input command
+     * @return the result of the executed command
+     */
     public String executeCommand(final String userInput) {
         Command command = returnCommandFromInput(userInput.trim().toLowerCase());
 
@@ -49,6 +54,11 @@ public class CommandFactory {
         }
     }
 
+    /**
+     * Returns a Command object based on the user's input.
+     * @param userInput the user's input command
+     * @return the Command object
+     */
     private Command returnCommandFromInput(final String userInput) {
         String argument;
 
@@ -93,7 +103,6 @@ public class CommandFactory {
 
         return Command.builder().commandStrategy(CommandStrategy.UNKNOWN).build();
     }
-
 
     @Builder
     private static class Command {

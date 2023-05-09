@@ -6,6 +6,9 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 
+/**
+ * This class represents a Department entity in the University of Cambridge system
+ */
 @Entity
 @Getter
 @Setter
