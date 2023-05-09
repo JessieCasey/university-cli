@@ -100,7 +100,7 @@ Thank you for using the University of Cambridge console!
 
 ### Database
 
-There are lectors in the database are scripted in database-init.sql
+There are lectors in the database. They are implemented in database-init.sql file
 ```
 Insert into Lector (lector_first_name, lector_last_name, lector_degree, salary_in_usd) values ('John', 'Doe', 'ASSISTANT', 10000);
 Insert into Lector (lector_first_name, lector_last_name, lector_degree, salary_in_usd) values ('Jane', 'Doe', 'ASSOCIATE_PROFESSOR', 20000);
