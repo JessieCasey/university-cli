@@ -76,16 +76,33 @@ Please enter a command (or 'exit' to quit):
 => The average salary of history is 12000.00
 +---------------------------------------------------------+
 Please enter a command (or 'exit' to quit): 
+-> Show COUNT    of employe   for Mathematics
+=> Invalid user input.
++---------------------------------------------------------+
+Please enter a command (or 'exit' to quit): 
+-> Show COUNT    of employee   for Mathematics
+=> 3
++---------------------------------------------------------+
+Please enter a command (or 'exit' to quit): 
+-> Show COUNT    of employee   for Computer Science
+=> 2
++---------------------------------------------------------+
+Please enter a command (or 'exit' to quit): 
 -> exit
 
 Thank you for using the University of Cambridge console!
 +---------------------------------------------------------+
 ```
 
-#### Database
+### Database
 
 There are lectors in the database are scripted in database-init.sql
-
+```
+Insert into Lector (lector_first_name, lector_last_name, lector_degree, salary_in_usd) values ('John', 'Doe', 'ASSISTANT', 10000);
+Insert into Lector (lector_first_name, lector_last_name, lector_degree, salary_in_usd) values ('Jane', 'Doe', 'ASSOCIATE_PROFESSOR', 20000);
+Insert into Lector (lector_first_name, lector_last_name, lector_degree, salary_in_usd) values ('Bob', 'Smith', 'PROFESSOR', 30000);
+...
+```
 ### Congratulations
 
 Congratulations! You've done everything correct 🎉
