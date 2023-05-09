@@ -112,7 +112,7 @@ Insert into Lector (lector_first_name, lector_last_name, lector_degree, salary_i
 Congratulations! You've done everything correct 🎉
 
 ### Screenshot 📷
-![img.png](imgs/img_1.png)
+![img.png](imgs/img_2.png)
 
 ---
 
