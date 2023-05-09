@@ -26,6 +26,7 @@ public class ConsoleApp implements CommandLineRunner {
 
         while (true) {
             System.out.println("Please enter a command (or 'exit' to quit): ");
+            System.out.print("-> ");
             input = scanner.nextLine();
             if (input.equalsIgnoreCase("exit")) {
                 System.out.println("\nThank you for using the University of Cambridge console!");
@@ -34,6 +35,7 @@ public class ConsoleApp implements CommandLineRunner {
                 break;
             }
             String response = commandFactory.executeCommand(input);
+            System.out.print("=> ");
             System.out.println(response);
             System.out.println(LINE);
         }
